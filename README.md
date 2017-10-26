@@ -66,4 +66,4 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 - Round 3: separate 480px css: 61, 68?1
 - Round 4: all local images optim: 62, 69
 - Round 5: localized preview pics: 75, 89
-- Round 6: fonts
+- Round 6: undo separate 480px css
