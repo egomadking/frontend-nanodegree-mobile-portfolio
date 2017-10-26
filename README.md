@@ -54,7 +54,16 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
 
-### Initial Insight Scores:
+### Insight Scores:
+
+**Initial**
 
 - mobile: 28/100
 - desktop: 30/100
+
+- Round 1: image optim, css media: 61, 68
+- Round 2: async analyics: 61, 68?!
+- Round 3: separate 480px css: 61, 68?1
+- Round 4: all local images optim: 62, 69
+- Round 5: localized preview pics: 75, 89
+- Round 6: fonts
