@@ -75,3 +75,5 @@ The portfolio was built on Twitter's [Bootstrap](http://getbootstrap.com/) frame
 * Round 4: all local images optim: 62, 69
 * Round 5: localized preview pics: 75, 89
 * Round 6: undo separate 480px css 72, 87
+* Round 7: limiting to printable latin characters- no change
+* Round 8: descended all JS
