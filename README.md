@@ -74,6 +74,9 @@ The portfolio was built on Twitter's [Bootstrap](http://getbootstrap.com/) frame
 * Round 3: separate 480px css: 61, 68
 * Round 4: all local images optim: 62, 69
 * Round 5: localized preview pics: 75, 89
-* Round 6: undo separate 480px css 72, 87
+* Round 6: undo separate 480px css: 71, 87
 * Round 7: limiting to printable latin characters- no change
-* Round 8: descended all JS
+* Round 8: descended all JS: no change
+* Round 9: re-separated 480px css: 71, 87
+* Round 10: critical path CSS inlined, external CSS linked at bottom: 71, 87 (CSS no longer listed, just the web font)
+* Round 11: commented out webfont
