@@ -79,4 +79,6 @@ The portfolio was built on Twitter's [Bootstrap](http://getbootstrap.com/) frame
 * Round 8: descended all JS: no change
 * Round 9: re-separated 480px css: 71, 87
 * Round 10: critical path CSS inlined, external CSS linked at bottom: 71, 87 (CSS no longer listed, just the web font)
-* Round 11: commented out webfont
+* Round 10.5: (added cloudflare CDN perf change expected approx 24hrs)
+* Round 11: commented out webfont: 85, 92
+* Round 12: preload style.css as style
