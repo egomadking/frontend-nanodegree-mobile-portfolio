@@ -67,7 +67,7 @@ The portfolio was built on Twitter's [Bootstrap](http://getbootstrap.com/) frame
 * mobile: 28/100
 * desktop: 30/100
 
-### Iterative improvements
+### Iterative improvements part 1
 
 * Round 1: image optim, css media: 61, 68
 * Round 2: async analyics: 61, 68?!
@@ -83,4 +83,10 @@ The portfolio was built on Twitter's [Bootstrap](http://getbootstrap.com/) frame
 * Round 11: commented out webfont: 85, 92
 * Round 11.5 changed CDN settings to 8 days cache: 91, 97
 * Round 12 _.css removed unneeded semicolons: 91, 97
-* Round 13 Deferred styles script for CSS: 
+* Round 13 Deferred styles script for CSS: 99, 99
+
+---
+
+## Initial main.js speed avg
+
+### Iterative improvements part 2
