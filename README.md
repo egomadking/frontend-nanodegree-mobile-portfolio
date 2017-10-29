@@ -82,4 +82,5 @@ The portfolio was built on Twitter's [Bootstrap](http://getbootstrap.com/) frame
 * Round 10.5: (added cloudflare CDN perf change expected approx 24hrs)
 * Round 11: commented out webfont: 85, 92
 * Round 11.5 changed CDN settings to 8 days cache: 91, 97
-* Round 12 _.css removed unneeded semicolons: 
+* Round 12 _.css removed unneeded semicolons: 91, 97
+* Round 13 Deferred styles script for CSS: 
