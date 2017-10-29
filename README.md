@@ -89,4 +89,6 @@ The portfolio was built on Twitter's [Bootstrap](http://getbootstrap.com/) frame
 
 ## Initial main.js speed avg
 
+*13.37fps
+
 ### Iterative improvements part 2
