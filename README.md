@@ -87,8 +87,12 @@ The portfolio was built on Twitter's [Bootstrap](http://getbootstrap.com/) frame
 
 ---
 
-## Initial main.js speed avg
+## Initial main.js speed avg (need 60fps)
 
-*13.37fps
+* 13.37fps
+
+## Initial resize pizza avg (need <5ms)
+
+* 64-73ms
 
 ### Iterative improvements part 2
