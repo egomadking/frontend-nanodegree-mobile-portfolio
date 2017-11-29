@@ -373,8 +373,6 @@ var pizzaElementGenerator = function(i) {
   pizzaDescriptionContainer = document.createElement("div");
 
   pizzaContainer.classList.add("randomPizzaContainer");
-  pizzaContainer.style.width = "33.33%";
-  pizzaContainer.style.height = "325px";
   pizzaContainer.id = "pizza" + i;                // gives each pizza element a unique id
   pizzaImageContainer.style.width="35%";
 
@@ -398,7 +396,7 @@ var pizzaElementGenerator = function(i) {
   return pizzaContainer;
 };
 
-// resizePizzas(size) is called when the slider in the "Our Pizzas" section of the website moves.
+// resizePizzas(size) is called by the function by onchange when the slider in the "Our Pizzas" section of the website moves.
 var resizePizzas = function(size) {
   window.performance.mark("mark_start_resize");   // User Timing API function
 
@@ -446,6 +444,7 @@ var resizePizzas = function(size) {
 
     return dx;
   }
+  // end pizza size slider
 
   // Iterates through pizza elements on the page and changes their widths
   function changePizzaSizes(size) {
@@ -501,6 +500,12 @@ function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
 
+  //
+  //
+  // The for() loop is burining the most time
+  // pay attention to items and scrollTop
+  //
+  //  
   var items = document.querySelectorAll('.mover');
   for (var i = 0; i < items.length; i++) {
     // document.body.scrollTop is no longer supported in Chrome.
@@ -538,3 +543,8 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   updatePositions();
 });
+
+(function(){
+  var thing = document.getElementsByClassName('container');
+  console.log(thing[0].getBoundingClientRect().width);
+})();
