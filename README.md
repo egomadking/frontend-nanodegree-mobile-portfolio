@@ -4,7 +4,7 @@ Your challenge, if you wish to accept it (and we sure hope you will), is to opti
 
 To get started, check out the repository and inspect the code.
 
-## Getting started
+## Section 1: Getting started
 
 ### Part 1: Optimize PageSpeed Insights score for index.html
 
@@ -60,14 +60,14 @@ The portfolio was built on Twitter's [Bootstrap](http://getbootstrap.com/) frame
 
 ---
 
-## Insight Scores
+## Section 2: Student Modification to Project Code
 
-### Initial
+### Initial Insight Scores (need 90/90)
 
 * mobile: 28/100
 * desktop: 30/100
 
-### Iterative improvements part 1
+#### Insights improvements
 
 * Round 1: image optim, css media: 61, 68
 * Round 2: async analyics: 61, 68?!
@@ -87,12 +87,24 @@ The portfolio was built on Twitter's [Bootstrap](http://getbootstrap.com/) frame
 
 ---
 
-## Initial main.js speed avg (need 60fps)
+### Initial frame generation average (need 60fps)
 
-* 13.37fps
+* 13.37ms (20-24fps)
 
-## Initial resize pizza avg (need <5ms)
+#### FPS improvements
+
+* Round 1: reduce number of pizzas to 56: 2.98ms (29-31fps)
+* Round 2: removed var scrollTop out of for() loop. Not needed to be evaluated for each iteration! : 0.19ms(51-64fps)
+* Round 3: updatePositions inside requestAnimationFrame in DOMContentLoaded event listener: 0.17ms(57-63fps)
+* Round 4: Nested oscillation for() loop in function then used requestAnimation frame to call: 0.15(57-63fps)
+
+---
+
+### Initial resize pizza avg (need <5ms)
 
 * 64-73ms
 
-### Iterative improvements part 2
+#### Resize improvements
+
+* Round 1 attempted to use transform: abandoned- became too messy with overlaps
+* Round 2 removed measurement on each randomPizzaContainer and relied on toggle value and switch case to provide a relative value to apply to randomPizzaContainer: 2.1 - 2.4ms
