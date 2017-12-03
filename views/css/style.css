@@ -41,6 +41,7 @@ form {
   /* moved from CSS */
   height: 325px;
   width: 33.33%;
+  min-width: 205px;
 }
 
 .randomPizzaContainer:after {
